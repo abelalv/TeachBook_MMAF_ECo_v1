@@ -1,0 +1,61 @@
+# Configuration of _toc.yml file is explained in detail here: https://jupyterbook.org/en/stable/structure/toc.html and https://sphinx-external-toc.readthedocs.io/en/latest/user_guide/sphinx.html
+
+format: jb-book
+root: intro2.md
+
+parts:
+  - caption: Sección 1
+    chapters:
+      - file: seccion_1/MMAF_actividad_1.ipynb
+        sections:
+          - file: seccion_1/MMAF_python_1.ipynb
+          - file: seccion_1/MMAF_taller_1.ipynb
+
+  - caption: Sección 2
+    chapters:
+      - file: seccion_2/MMAF_actividad_2.ipynb
+        sections:
+          - file: seccion_2/MMAF_python_2.ipynb
+          - file: seccion_2/MMAF_taller_2.ipynb
+
+  - caption: Sección 3
+    chapters:
+      - file: seccion_3/MMAF_actividad_3.ipynb
+        sections:
+          - file: seccion_3/MMAF_python_3.ipynb
+          - file: seccion_3/MMAF_taller_3.ipynb
+
+  - caption: Sección 4
+    chapters:
+      - file: seccion_4/MMAF_actividad_4.ipynb
+        sections:
+          - file: seccion_4/MMAF_python_4.ipynb
+          - file: seccion_4/MMAF_taller_4.ipynb
+
+  - caption: Sección 5
+    chapters:
+      - file: seccion_5/MMAF_actividad_5.ipynb
+        sections:
+          - file: seccion_5/MMAF_python_5.ipynb
+          - file: seccion_5/MMAF_taller_5.ipynb
+
+  - caption: Sección 6
+    chapters:
+      - file: seccion_6/MMAF_actividad_6.ipynb
+        sections:
+          - file: seccion_6/MMAF_python_6.ipynb
+          - file: seccion_6/MMAF_taller_6.ipynb
+
+  - caption: Sección 7
+    chapters:
+      - file: seccion_7/MMAF_actividad_7.ipynb
+        sections:
+          - file: seccion_7/MMAF_python_7.ipynb
+          - file: seccion_7/MMAF_taller_7.ipynb
+
+  - caption: Sección 8
+    chapters:
+      - file: seccion_8/MMAF_actividad_8.ipynb
+        sections:
+          - file: seccion_8/MMAF_python_8.ipynb
+          - file: seccion_8/MMAF_taller_8.ipynb
